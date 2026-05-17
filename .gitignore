@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Secrets
+terraform.tfvars
+
+# Executables
+terraform.exe
+
+# Sensitive files
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# VS Code
+.vscode/
